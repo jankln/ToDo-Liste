@@ -97,6 +97,8 @@ namespace ToDoList
                 btnAddTask.ForeColor = Color.White;
                 btnDarkMode.BackColor = Color.FromArgb(45, 45, 45);
                 btnDarkMode.ForeColor = Color.White;
+                btnExplain.BackColor = Color.FromArgb(45, 45, 45);
+                btnExplain.ForeColor = Color.White;
                 btnDarkMode.Text = "Light Mode";
 
             }
@@ -113,6 +115,8 @@ namespace ToDoList
                 btnAddTask.ForeColor = SystemColors.ControlText;
                 btnDarkMode.BackColor = SystemColors.Control;
                 btnDarkMode.ForeColor = SystemColors.ControlText;
+                btnExplain.BackColor = SystemColors.Control;
+                btnExplain.ForeColor = SystemColors.ControlText;
                 btnDarkMode.Text = "Dark Mode";
             }
         }
